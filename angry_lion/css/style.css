@@ -134,7 +134,7 @@ body header .header-text{
 }
 
 body header .header-text h1{
-    font-size:120px;
+    font-size:90px;
     max-width:950px;
     color:var(--white); 
     font-weight:900;
