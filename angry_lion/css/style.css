@@ -363,7 +363,7 @@ body .title-container {
 
 body .title-container span.top{
     color:var(--angry-yellow);
-    font-size:40px;
+    font-size:16px;
     font-family:'French Script MT', serif;
     margin-bottom:10px;
 }
