@@ -362,7 +362,7 @@ body .title-container {
 
 body .title-container span.top{
     color:var(--angry-yellow);
-    font-size:45px !important;
+    font-size:65px !important;
     font-family:'French Script MT', serif;
     margin-bottom:10px;
 }
@@ -1224,4 +1224,5 @@ footer .footer-bottom .b{
 footer .footer-bottom a:hover{
     color:var(--angry-red);
 }
+
 
