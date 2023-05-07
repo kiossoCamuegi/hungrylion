@@ -1,0 +1,189 @@
+/*Mac-os portatil */
+
+@media screen and (max-width:1280px){
+    body header .header-text h1{
+        margin-top:20px;
+        font-size:100px !important;
+    }
+}
+
+@media screen and (max-width:980px){
+    body header nav main:nth-child(2),
+    body header nav main:nth-child(3) span{
+        display: none !important;
+    }
+
+    body header nav .toggle-navbar{
+        display: flex !important;
+        margin-left:15px;
+    }
+
+    body header .header-hero img{
+        display: none;
+    }
+
+    body header .header-hero {
+        background-image:url('../images/7.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: var(--angry-black);
+        height:100vh;
+        width:100%;
+    }
+
+    body header .header-overlay nav .logo img{
+        width:60px !important;
+        height: 60px !important;
+    }
+
+
+    body header .header-text h1{
+       margin-top:20px;
+       font-size:100px !important;
+   }
+
+   body header .responsive-navbar.active{
+       display: flex;
+       flex-direction: column; 
+       top:0;
+       right:0 !important; 
+       opacity:10 !important;
+       z-index:1000 !important; 
+       background-color:var(--angry-red);
+       height:100%;
+       min-width:280px;
+       padding-left:20px;
+       max-width:350px !important;   
+       box-shadow:0 3px 10px rgba(0,0,0,0.3);
+   }
+
+   body header .responsive-navbar .toggle-navbar {
+    width:40px;
+    height:40px;  
+    margin-top:20px; 
+    border:1px solid var(--angry-yellow);
+    color:var(--angry-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin-right:20px;
+    cursor: pointer; 
+    background:var(--angry-black);
+    font-size:18px; 
+}
+
+
+body header .responsive-navbar main {
+    margin:20px 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    padding:0 20px;
+    width:100%;
+}
+
+body header .responsive-navbar main  li{
+    margin:10px;
+}
+
+body header .responsive-navbar main  li a{
+    color:var(--angry-light);
+    font-weight:500;
+    font-size:17px;
+    cursor: pointer;
+}
+
+body header .responsive-navbar main span,
+body header .responsive-navbar main .lang-switch{
+    font-size:17px;
+    color:var(--angry-yellow);
+}
+
+body header .responsive-navbar main .lang-switch{
+    font-size:30px;
+    cursor: pointer;
+    margin-top:20px;
+} 
+body .featured  aside{
+    width:100%;
+    flex-direction: column;
+}
+body .featured  aside:nth-child(1) .box:nth-child(1),
+body .featured  aside:nth-child(2) .box:nth-child(2),
+body .featured  aside:nth-child(1) .box:nth-child(2),
+body .featured  aside:nth-child(2) .box:nth-child(1){
+    width:100% !important; 
+    height:300px !important;
+    margin:10px 0 !important;
+}
+
+body .title-container h3 {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-size:25px !important;
+    max-width:92%;
+}
+
+body .banner-post .box-flex h1{
+    font-size:45px !important;
+}
+
+body .banner-post .box-flex{
+    flex-direction: column;
+}
+
+body .banner-post .box-flex img{
+    max-width:400px !important;
+}
+
+body .newsletter{
+    flex-direction: column;
+}
+
+body .newsletter .box:nth-child(1){
+    text-align: center;
+}
+
+body .newsletter .box{
+    width:100% !important;
+}
+
+body footer .space{
+    justify-content: center !important;
+    flex-direction: column;
+}
+
+
+body footer .call-ball{
+    display: none;
+}
+
+
+body footer .footer-container .box,
+body .footer-container .box p,
+body .footer-container .box h3,
+body .footer-container h5{
+    text-align: left !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+footer .footer-bottom .d-flex{
+    flex-direction: column;
+}
+
+footer .footer-bottom .b{
+    display: none;
+}
+
+}
+
+@media screen and (max-width:780px){
+    body header .header-text h1{
+        margin-top:20px;
+        font-size:60px !important;
+    }
+}
